@@ -2,6 +2,8 @@ package arma.net.book;
 
 import java.util.Arrays;
 
+import arma.net.util.Utils;
+
 /**
  * 
  * @author Arma
@@ -58,6 +60,7 @@ public class Book
 	@Override
 	public String toString()
 	{
-		return "info about book"; //TODO:
+		String authorsStr = Utils.compileString(authors);
+		return "Book title: " + title + " book topic: " + topic.toString() + " written in: " + year + " by: " + authorsStr;
 	}
 }

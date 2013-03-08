@@ -19,7 +19,7 @@ public class Employee {
 	@Override
 	public String toString()
 	{
-		return "info about employee"; //TODO
+		return "Employee stilling: " + stilling + " thesis: " + thesis;
 	}
 	
 }

@@ -20,6 +20,6 @@ public class Topic {
 	@Override
 	public String toString()
 	{
-		return "info about topic"; //TODO:
+		return "topic nr: " + nr + " name: " + name;
 	}
 }

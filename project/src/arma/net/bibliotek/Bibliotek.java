@@ -5,6 +5,7 @@ import java.util.Arrays;
 import arma.net.book.BookExample;
 import arma.net.person.Employee;
 import arma.net.person.Person;
+import arma.net.util.Utils;
 
 public class Bibliotek
 {
@@ -74,7 +75,13 @@ public class Bibliotek
 
 	@Override
 	public String toString()
-	{
-		return ""; //TODO:
+	{	
+		String booksInfo = Utils.compileString(books);
+		String borrowInfo = Utils.compileString(borrowers);
+		String employInfo = Utils.compileString(employees);
+		
+		String allInfo = booksInfo + borrowInfo + employInfo;
+		
+		return allInfo;
 	}
 }

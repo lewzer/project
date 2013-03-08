@@ -18,7 +18,8 @@ public class BookExample extends Book
 	@Override
 	public String toString()
 	{
-		return "info about book example"; //TODO:
+		String bookInfo = super.toString();
+		return "Book example nr: " + exampleNr + " book info: " + bookInfo;
 	}
 
 }

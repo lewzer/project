@@ -18,7 +18,7 @@ public class PlannedLecture {
 	@Override
 	public String toString()
 	{
-		return "info about planned lecture"; //TODO:
+		return "Lecture: " + lecture.toString() + " lectures forum: " + forum + " lecture date: " + newDate.toString() + " entry fee: " + entryFee; //TODO:
 	}
 	
 	public final void setForum(String frm)

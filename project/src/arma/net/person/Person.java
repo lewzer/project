@@ -56,7 +56,7 @@ public class Person
 	@Override
 	public String toString()
 	{
-		return "info about the person"; //TODO:
+		return "Person cpr: " + cpr.toString() + " name: " + name + " adress: " + address + " balance: " + balance;
 	}
 
 }

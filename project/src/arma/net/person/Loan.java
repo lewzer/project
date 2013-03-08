@@ -47,7 +47,7 @@ public class Loan {
 	@Override
 	public String toString()
 	{
-		return "info about loan"; //TODO:
+		return "Loaner: " + loaner.toString() + " bookexample: " + bookExample.toString() + "date loaned: " + dateOut.toString() + " returned " + ((dateHome != null) ? "yes" : "no"); //TODO:
 	}
 	
 	public int passedDays()

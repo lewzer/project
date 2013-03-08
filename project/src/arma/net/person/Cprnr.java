@@ -49,6 +49,6 @@ public class Cprnr {
 	@Override
 	public String toString()
 	{
-		return "info about cpr"; //TODO:
+		return "cpr nr: " + cprnr;
 	}
 }

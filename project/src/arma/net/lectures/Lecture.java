@@ -16,6 +16,7 @@ public class Lecture {
 		duration = cduration;
 	}
 	
+	
 	public final String getTitle()
 	{
 		return title;
@@ -24,6 +25,12 @@ public class Lecture {
 	public final void setDesc(String desc)
 	{
 		description = desc;
+	}
+	
+	@Override
+	public String toString()
+	{
+		return "Lecture title: " + title + " ran by employee: " + employee.toString() + " lecture description: " + description + " lecture duration: " + duration;
 	}
 	
 }

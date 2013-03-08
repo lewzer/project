@@ -27,9 +27,9 @@ public class Author {
 	}
 	
 	@Override
-	public String toString()
+	public String toString() // why do we need it here?
 	{
-		return "info about author"; // TODO:
+		return "Author: " + name + ", born: " + born + ", in: " + bornWhere + ", deceased: " + deceased;
 	}
 	
 }

@@ -24,6 +24,6 @@ public class Reservation {
 	@Override
 	public String toString()
 	{
-		return "info about the reservation"; //TODO
-	}
+		return "Reserved book: " + book.toString() + " reserved on: " + date.toString() + " by person: " + person.toString(); 
+		}
 }
